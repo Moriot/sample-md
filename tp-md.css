@@ -1,0 +1,210 @@
+h1 {
+  margin: 1em 0 0.8em;
+  padding: 0em;
+  font-size: 36px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+h2 {
+  margin: 25px 0 15px;
+  padding: 0em;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-bottom: solid 2px #222;
+}
+h3 {
+  margin: 25px 10px 10px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+h4 {
+  font-weight: bold;
+  margin: 10px;
+  font-size: 20px;
+  font-family: none;
+}
+h5 {
+  font-weight: bold;
+  margin: 10px;
+  font-size: 16px;
+}
+h6 {
+  margin: 10px;
+  font-size: 16px;
+  text-align: center;
+  font-family: none;
+  color: dimgray;
+}
+li {
+  margin-bottom: 0;
+}
+
+/* リンク */
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #d7215f;
+}
+a:visited {
+  color: #9c3240;
+}
+a:hover {
+  text-decoration: none;
+  color: #de5282;
+}
+
+/* 画像 */
+img {
+  text-align: center;
+  width: 100%;
+}
+
+/* 各要素基本マージンと文字色 */
+
+dl,
+ol,
+ul,
+p,
+pre,
+table {
+  color: #333;
+}
+p {
+  margin-left: 0.7em;
+}
+
+/* リスト関連 */
+ul,
+ol {
+  padding: 0.5em 0 0.5em 1.5em;
+  margin: 20px 10px 20px;
+  text-align: initial;
+}
+
+ul li,
+ol li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  display: block;
+}
+dl dt {
+  color: #666;
+  font-size: 18px;
+}
+dl dd {
+  margin-bottom: 1.2em;
+  padding-bottom: 1.4em;
+  border-bottom: 1px solid #f1f1f1;
+}
+dl dd:last-of-type {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+/* テーブル */
+table th {
+  width: 25%;
+  padding: 10px 35px 10px 0;
+  text-align: left;
+  border-bottom: 30px solid transparent;
+  color: #666;
+}
+table td {
+  padding: 10px 35px;
+  border-left: 2px solid #009cd5;
+  border-bottom: 30px solid white;
+}
+table td p,
+table td ul {
+  margin-bottom: 0;
+}
+
+/* 区切り線 */
+hr {
+  border: 0;
+  height: 1px;
+  margin: 20px 10px 20px;
+  padding: 0;
+  max-width: 800px;
+  background: rgba(153, 153, 153, 0.3);
+}
+/* mark em small strong */
+mark {
+  font-style: normal;
+  background: linear-gradient(transparent 60%, #ffff66 60%);
+}
+em {
+  margin: 0 3px;
+  padding: 0 5px;
+  background: linear-gradient(transparent 60%, #ffff66 60%);
+  font-weight: bold;
+}
+small {
+  font-size: 80%;
+}
+strong {
+  font-weight: bold;
+  color: darkblue;
+}
+/* pre code figure */
+pre {
+  margin: 10px;
+  max-width: 100%;
+  background: rgb(236, 236, 236);
+  padding: 20px;
+  line-height: 1.3;
+  font-size: 18px;
+  font-family: "Source Code Pro", "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", "Meiryo", verdana, sans-serif;
+  font-weight: normal;
+}
+pre code {
+  padding: 0;
+  background: none;
+  white-space: pre-wrap;
+}
+code {
+  padding: 0 5px;
+  background: #f7f5ef;
+  font-family: "Source Code Pro", "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", "Meiryo", verdana, sans-serif;
+  font-weight: normal;
+  border-radius: 2px;
+  max-width: 600px;
+}
+
+/* figure */
+figure {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 370px;
+}
+figure figcaption {
+  margin-bottom: 1px;
+  padding: 5px 15px;
+  background: #eee;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 1px 0 white;
+}
+figure pre {
+  margin-bottom: 0;
+}
+figure pre + figcaption {
+  margin-top: 1px;
+}
+
+/* 引用 */
+blockquote {
+  position: relative;
+  margin: 20px;
+  padding: 10px 15px 1px 60px;
+  background: #fafafa;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  font-size: 16px;
+}
